@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    line-height: 2;
+    font-family: sans-serif;
+    background-color:aliceblue;
+    color:darkslategray;
+    text-align: center;
+    margin-top:  200px;
+}
+
+button, h2 {
+    margin: 10px;
+}
+
+button {
+padding: 6px 16px;
+background-color:seagreen;
+color: aliceblue;
+border-radius: 20px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
