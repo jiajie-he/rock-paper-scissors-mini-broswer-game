@@ -25,7 +25,7 @@ var startGame = function () {
     var index = Math.floor(Math.random() * playerOptions.length);
     var computerSelection = playerOptions[index];
 
-    window.alert(`Computer: ` + computerSelection);
+    window.alert(`You: ${playerInput} vs Computer: ${computerSelection}`);
 
     // user vs computer
     if (playerInput == computerSelection) {
